@@ -215,6 +215,9 @@ section01
     align-items: flex-end;
 }
 
+.section04 .user-group .article-box .user-box .info-box>img {
+    margin-bottom: 16px;
+}
 
 .section04 .user-group .article-box .user-box .txt-box h6 {
     font-size: 18px;
