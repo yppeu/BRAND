@@ -235,7 +235,7 @@ section01
     align-items: flex-end;
 }
 
-.section04 .user-group .article-box .user-box .sns-box img:nth-child(1) {
+.section04 .user-group .article-box .user-box .sns-box a:nth-child(1) img {
     margin-right: 16px;
 }
 
