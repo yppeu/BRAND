@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
+
+/*==========================
+footer active
+============================*/
+footer .left-box .txt-group {
+    display: none !important;
+}
+
+footer .left-box .m-txt-group .txt-box.active .txt-list {
+    display: block;
+}
+
+footer .left-box .m-txt-group {
+    width: 100%;
+}
+
+footer .left-box .m-txt-group .txt-box {
+    margin-bottom: 20px;
+}
+
+footer .left-box .m-txt-group .txt-box>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .left-box .m-txt-group .txt-box>a:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+footer .left-box .m-txt-group .txt-box a>span {
+    color: #fff;
+    display: inline-block;
+    margin-left: auto;
+}
+
 /*==========================
 header
 ============================*/
@@ -23,11 +60,14 @@ nav a {
     margin-right: 24px;
 }
 
+
 /*==========================
 공통 container
 ============================*/
 .container {
-    max-width: 1136px;
+    max-width: 1108px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: auto;
 }
 
@@ -35,7 +75,8 @@ nav a {
     background: #000;
     color: #fff;
     border-radius: 32px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.1px;
     font-weight: 700;
     padding: 12px 24px;
@@ -69,7 +110,7 @@ section01
 }
 
 .section01 .top-box .left-box {
-    margin-right: 130px;
+    margin-right: 60px;
 }
 
 .section01 .top-box .left-box .btn-box {
@@ -112,13 +153,13 @@ section02
 
 .section02 .article-group .article-box .tit-box h6 {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.6px;
     font-weight: 700;
 }
 
 .section02 .article-group .article-box>p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.6;
     letter-spacing: 0.1px;
     font-weight: 400;
 }
@@ -151,7 +192,7 @@ section03
 
 .section03 .top-box .img-box .txt-box h5 {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 900;
     margin-bottom: 16px;
@@ -159,7 +200,7 @@ section03
 
 .section03 .top-box .img-box .txt-box p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 400;
     margin-bottom: 16px;
@@ -167,7 +208,7 @@ section03
 
 .section03 .top-box .img-box .txt-box .list-box {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 400;
 }
@@ -218,7 +259,7 @@ section04
 
 .section04 .user-group .article-box>p {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.6;
     font-weight: 400;
     margin-bottom: 56px;
 }
@@ -235,7 +276,7 @@ section04
 
 .section04 .user-group .article-box .user-box .txt-box h6 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 700;
     margin-bottom: 4px;
@@ -243,7 +284,7 @@ section04
 
 .section04 .user-group .article-box .user-box .txt-box p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.2;
     font-weight: 400;
 }
 
@@ -273,7 +314,7 @@ section05
 
 .section05 p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 500;
     margin-bottom: 12px;
@@ -289,7 +330,7 @@ section05
 
 .section05 button {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 700;
     background: #fff;
@@ -339,7 +380,7 @@ footer .left-box .txt-group .txt-box {
 
 footer .left-box .txt-group .txt-box>a {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.4;
     letter-spacing: 0.1px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -347,7 +388,7 @@ footer .left-box .txt-group .txt-box>a {
 
 footer .left-box .txt-group .txt-list>a>p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.2;
     font-weight: 400;
 }
 
@@ -361,7 +402,7 @@ footer .right-box {
 
 footer .right-box .sand-group h6 {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.6;
     letter-spacing: 0.1px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -384,7 +425,7 @@ footer .right-box .sand-group .sand-box input {
 
 footer .right-box .sand-group .sand-box input::placeholder {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.6;
     letter-spacing: 0.1px;
     font-weight: 400;
     color: #fff;
@@ -394,9 +435,21 @@ footer .right-box .sand-group .sand-box input::placeholder {
 
 footer .right-box .sand-group>p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.4;
     font-weight: 400;
     opacity: 0.4;
+}
+
+footer .left-box .txt-group .txt-list>a {
+    display: none;
+}
+
+footer .left-box .txt-group .txt-box a>p {
+    display: inline-block;
+}
+
+footer .left-box .txt-group .txt-box a>span {
+    display: none;
 }
 
 
@@ -404,14 +457,15 @@ footer .right-box .sand-group>p {
 /*==========================
 반응형
 ============================*/
-
-@media(max-width:1150px) {
-    .container {
-        padding: 0 32px;
+@media all and (max-width:1024px) {
+    .section01 .top-box .left-box .txt-box h3 {
+        font-size: 60px;
     }
-}
 
-@media(max-width:1024px) {
+    .section01 .top-box .left-box {
+        margin-right: 0;
+    }
+
     .section01 .top-box {
         display: flex;
         flex-direction: column;
@@ -436,6 +490,20 @@ footer .right-box .sand-group>p {
     .section01 .top-box .right-box img {
         width: 100%;
         object-fit: contain;
+    }
+
+    .section01 .top-box .left-box .btn-box p {
+        text-align: left;
+    }
+
+    .section02 .article-group .article-box>p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-size: 16px;
     }
 
     .section03 .top-box {
@@ -470,6 +538,15 @@ footer .right-box .sand-group>p {
         text-align: left;
     }
 
+    .section04 .user-group .article-box>p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical
+    }
+
     footer .left-box {
         display: flex;
         flex-direction: column;
@@ -484,141 +561,23 @@ footer .right-box .sand-group>p {
     }
 }
 
-@media(max-width:774px) {
+@media(max-width:768px) {
+    header nav {
+        display: none;
+    }
+
     .section01 .top-box .left-box {
         width: 80%;
     }
 
-    .section03 .top-box .img-box .txt-box h5 {
-        font-size: 20px;
-    }
-
-    .section03 .top-box .img-box .txt-box2 p,
-    .section03 .top-box .img-box .txt-box2 ul li {
-        font-size: 14px;
-    }
-
-    .section04 .user-group .article-box>p {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        word-break: break-word;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical
-    }
-
-    .section04 .user-group .article-box:first-child {
-        display: none;
-    }
-
-    footer .left-box .img-box {
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width:800px) {
-
-    footer .container {
-        justify-content: space-between;
-    }
-
-    footer .right-box {
-        width: 300px;
-    }
-}
-
-@media(max-width:700px) {
-    header nav {
-        display: none;
-    }
-
-    footer {
-        padding: 48px 0;
-    }
-}
-
-@media(max-width:600px) {
-    header nav {
-        display: none;
-    }
-
-    .section01 .top-box .left-box .txt-box h3 {
-        font-size: 45px;
-    }
-
-    .section01 .top-box .left-box .txt-box p {
-        font-size: 14px;
-    }
-
-    .section01 .top-box .left-box .btn-box p {
-        text-align: left;
-        font-size: 12px;
-    }
-
-    .section05 h3 {
-        font-size: 30px;
-    }
-
-    .section03 .top-box .img-box .txt-box {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .section03 .top-box .img-box .txt-box h5 {
-        width: 80%;
-        font-size: 20px;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .section03 .top-box .img-box .txt-box2 p {
-        text-align: left;
-    }
-
-    .section04 .user-group .article-box>p {
-        font-size: 16px;
+    .section02 .article-group .article-box>p {
         text-overflow: ellipsis;
         overflow: hidden;
         word-break: break-word;
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical
-    }
-
-    .section05 h3 {
-        font-size: 26px;
-    }
-
-    footer .container {
-        justify-content: space-between;
-    }
-
-    footer .left-box .txt-group {
-        width: auto;
-    }
-
-    footer .right-box {
-        width: 200px;
-    }
-}
-
-@media(max-width:500px) {
-
-    .section01 .top-box .left-box {
-        width: 100%;
-    }
-
-    .section01 .top-box .left-box .txt-box h3 {
-        font-size: 40px;
-    }
-
-    .section02 .article-group .article-box .tit-box {
-        justify-content: center;
-    }
-
-    .section02 .article-group .article-box>p {
-        text-align: center;
+        -webkit-box-orient: vertical;
+        font-size: 16px;
     }
 
     .section02 .article-group {
@@ -626,47 +585,68 @@ footer .right-box .sand-group>p {
         flex-direction: column;
     }
 
-    .section02 .article-group .article-box:not(:last-child) {
-        margin-right: 0;
-        margin-bottom: 30px;
+    .section02 .article-group .article-box {
+        text-align: center;
     }
 
-    .section04 .user-group {
+    .section02 .article-group .article-box .tit-box {
         justify-content: center;
+    }
+
+    .section02 .article-group .article-box:not(:last-child) {
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .section03 .top-box .img-box .txt-box h5 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .section03 .top-box .img-box .txt-box2 p,
+    .section03 .top-box .img-box .txt-box2 ul li {
+        font-size: 14px;
+    }
+
+    .section04 .user-group .article-box:first-child {
+        display: none;
     }
 
     footer .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0 60px;
     }
 
-    footer .left-box {
+    footer .left-box,
+    footer .right-box {
         width: 100%;
     }
 
     footer .left-box .img-box {
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    footer .left-box .txt-group {
-        margin: auto;
+        margin-bottom: 20px;
     }
 
     footer .left-box .txt-group .txt-box:last-child {
         margin-right: 0;
     }
-
-    footer .right-box {
-        width: 100%;
-    }
 }
 
-@media(max-width:375px) {
+/* 디바이스별 해상도 분기점을 생각했기 때문에. */
+@media(max-width:480px) {
 
     .section01 .top-box .left-box .txt-box h3 {
-        font-size: 30px;
+        font-size: 40px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .section01 .top-box .left-box .txt-box p {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .section01 .top-box .left-box {
@@ -690,13 +670,48 @@ footer .right-box .sand-group>p {
         font-size: 14px;
     }
 
+    .section03 .top-box .img-box .txt-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section03 .top-box .img-box .txt-box h5 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .section04 .user-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section04 .user-group .article-box:first-child {
+        display: block;
+    }
+
     .section04 .user-group .article-box:not(:last-child) {
-        display: none;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 
     .section05 h3 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
+    footer .left-box .txt-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* footer .left-box .txt-group {
+            display: none;
+        }
+    
+        footer .left-box .m-txt-group {
+            display: block;
+        } */
 
 }
