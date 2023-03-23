@@ -636,7 +636,7 @@ footer .right-box .sand-group>p {
 }
 
 /* 디바이스별 해상도 분기점을 생각했기 때문에. */
-@media(max-width:376px) {
+@media(max-width:400px) {
 
     .section01 .top-box .left-box .txt-box h3 {
         font-size: 35px;
