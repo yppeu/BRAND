@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
-
 /*==========================
 footer active
 ============================*/
 footer .left-box .txt-group {
-    display: none !important;
+    display: block;
+}
+
+footer .left-box .m-txt-group {
+    display: none;
 }
 
 footer .left-box .m-txt-group .txt-box.active .txt-list {
@@ -35,6 +38,18 @@ footer .left-box .m-txt-group .txt-box a>span {
     color: #fff;
     display: inline-block;
     margin-left: auto;
+}
+
+footer .left-box .m-txt-group .txt-list>a {
+    display: none;
+}
+
+footer .left-box .m-txt-group .txt-box a>p {
+    display: inline-block;
+}
+
+footer .left-box .m-txt-group .txt-box a>span {
+    display: none;
 }
 
 /*==========================
@@ -440,19 +455,6 @@ footer .right-box .sand-group>p {
     opacity: 0.4;
 }
 
-footer .left-box .txt-group .txt-list>a {
-    display: none;
-}
-
-footer .left-box .txt-group .txt-box a>p {
-    display: inline-block;
-}
-
-footer .left-box .txt-group .txt-box a>span {
-    display: none;
-}
-
-
 
 /*==========================
 반응형
@@ -706,12 +708,12 @@ footer .left-box .txt-group .txt-box a>span {
         flex-direction: column;
     }
 
-    /* footer .left-box .txt-group {
-            display: none;
-        }
-    
-        footer .left-box .m-txt-group {
-            display: block;
-        } */
+    footer .left-box .txt-group {
+        display: none;
+    }
+
+    footer .left-box .m-txt-group {
+        display: block;
+    }
 
 }

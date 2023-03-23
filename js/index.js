@@ -1,9 +1,9 @@
 $(function () {
-  $(".txt-list a").hide();
+  $(".m-txt-list a").hide();
   $(".txt-box").click(function (e) {
     console.log(1);
     e.preventDefault();
-    $(this).find($(".txt-list a")).next().stop().slideToggle("fast");
+    $(this).find($(".m-txt-list a")).next().stop().slideToggle("fast");
     $(this).toggleClass("active");
     $(".txt-box").removeClass("active");
   });
