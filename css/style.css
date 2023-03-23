@@ -30,10 +30,6 @@ footer .left-box .m-txt-group .txt-box>a {
     align-items: center;
 }
 
-footer .left-box .m-txt-group .txt-box>a:not(:last-child) {
-    margin-bottom: 20px;
-}
-
 footer .left-box .m-txt-group .txt-box a>span {
     color: #fff;
     display: inline-block;
@@ -639,8 +635,8 @@ footer .right-box .sand-group>p {
 @media(max-width:400px) {
 
     .section01 .top-box .left-box .txt-box h3 {
-        font-size: 35px;
-        width: 70%;
+        font-size: 40px;
+        width: 90%;
         margin: auto;
         margin-bottom: 30px;
     }
@@ -676,6 +672,7 @@ footer .right-box .sand-group>p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0 20px;
     }
 
     .section03 .top-box .img-box .txt-box h5 {
@@ -683,6 +680,10 @@ footer .right-box .sand-group>p {
         margin-right: 0;
         margin-bottom: 30px;
         text-align: center;
+    }
+
+    .section03 .top-box .img-box .txt-box p {
+        font-size: 13px;
     }
 
     .section04 .user-group {
@@ -710,7 +711,10 @@ footer .right-box .sand-group>p {
     }
 
     .section05 h3 {
-        font-size: 24px;
+        width: 90%;
+        margin: auto;
+        font-size: 22px;
+        margin-bottom: 20px;
     }
 
     footer .left-box .txt-group {
@@ -729,5 +733,18 @@ footer .right-box .sand-group>p {
     footer .left-box .m-txt-group .txt-box a>span {
         display: block;
     }
+
+    footer .left-box .m-txt-group .txt-box>a:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    footer .left-box .m-txt-group .txt-box a>p {
+        margin-bottom: 2px;
+    }
+
+    footer .left-box .m-txt-group .txt-box .m-txt-list a>p {
+        font-size: 12px;
+    }
+
 
 }
